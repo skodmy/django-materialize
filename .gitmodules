@@ -1,3 +1,0 @@
-[submodule "materialize/static/materialize"]
-	path = materialize/static/materialize
-	url = https://github.com/Dogfalo/materialize.git
