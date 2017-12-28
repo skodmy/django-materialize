@@ -9,11 +9,11 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-materialize',
-    version='0.100.2',
+    version='1.0.0-alpha.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'Django==1.110.6',
+        'Django>=1.9',
     ],
     license='MIT',
     description='A simple Django app to add materialize support.',
@@ -24,11 +24,15 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
+        'Framework :: Django :: 1.9',
+        'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP',

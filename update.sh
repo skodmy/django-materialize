@@ -1,6 +1,6 @@
 #!/bin/sh
 # A hardcode implementation :)
-URL_PREFIX="https://raw.githubusercontent.com/Dogfalo/materialize/master/dist/"
+URL_PREFIX="https://raw.githubusercontent.com/Dogfalo/materialize/v1-dev/dist/"
 URL_DIRS_SUFIXES=("css/" "fonts/roboto/" "js/")
 CSS_FILENAMES=(materialize.css materialize.min.css)
 ROBOTO_FONTS_FILENAMES=(
