@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-materialize',
-    version='1.0.0-alpha.2',
+    version='1.0.1-alpha.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
